@@ -8,13 +8,10 @@
 */
 package cn.itheima.index;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
+import cn.itheima.dao.BookDao;
+import cn.itheima.dao.impl.BookDaoImpl;
+import cn.itheima.po.Book;
 import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field.Store;
 import org.apache.lucene.document.TextField;
@@ -33,9 +30,10 @@ import org.apache.lucene.util.Version;
 import org.junit.Test;
 import org.wltea.analyzer.lucene.IKAnalyzer;
 
-import cn.itheima.dao.BookDao;
-import cn.itheima.dao.impl.BookDaoImpl;
-import cn.itheima.po.Book;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /** 
  * @ClassName: IndexManager 
@@ -261,8 +259,10 @@ public class IndexManager {
 	}
 	
 	
-	
-	
+	@Test
+	public void test(){
+		System.out.println(111);
+	}
 	
 	
 	
