@@ -262,9 +262,6 @@ public class IndexManager {
 	@Test
 	public void test(){
 		System.out.println(111);
-		System.out.println(111);
-		System.out.println(111);
-		System.out.println(111);
 	}
 	
 	
